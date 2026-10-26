@@ -1,1 +1,8 @@
-
+{
+  // Cloudflare Pages: static, zero-build deployment.
+  // The project root IS the output directory, so no build step is needed.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pptx-studio",
+  "compatibility_date": "2026-10-26",
+  "pages_build_output_dir": "./"
+}
